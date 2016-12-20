@@ -34,14 +34,18 @@
     <div class="container">           
       <h1>Accomplishments</h1>
 
+        <div class="accomp">
+
           <p>Sophie Wu graduated from Vestavia Hills High School in 2014 as an honors student. <img src="images/vhhs.png" alt="VHHS logo">
             Vestavia Hills High School (VHHS), founded in 1970, is a public high school in Vestavia Hills, Alabama, a suburb of Birmingham, Alabama, USA. It is part of the Vestavia Hills City Schools.
             Vestavia has 150 courses available on yearly basis. 
             Vestavia offers a number of AP courses (World History, U.S. History, European History, Human Geography, English Language & Lit., Calculus AB, Calculus BC, Computer Science Principles, Psychology, Physics 1, Statistics, Biology, Chemistry, French, Latin, Spanish, German, Government, Economics, Studio Art, Environmental Science, and Comparative Government). 
             Vestavia also offers Honors courses for all core subjects to all grades. 
           </p>
-
+        
+        </div>
           
+        <div class="accomp">
 
           <p>Sophie Wu currently attends the University of Rochester,<img src="images/uofr.svg" alt="U of R logo"> and is pursuing a statistics major and a computer science and Chinese minor. 
             The University of Rochester (commonly referred to as U of R or UR) is a private, nonsectarian, research university in Rochester, New York.
@@ -49,13 +53,16 @@
             The university has six schools and various interdisciplinary programs.
             The University of Rochester, across all of its schools and campuses, enrolls approximately 5,600 undergraduates and 4,600 graduate students. 
             Its 158 buildings house over 200 academic majors. 
-            Additionally, Rochester (along with its affiliated Strong Health System) is the largest employer in the Greater Rochester area and the sixth largest employer in New York.
           </p>
+        </div>
 
-          <p>Sophie Wu has also worked for Girls Who Code as a Teaching Assistant for a Summer Immersion Program. <img src="images/gwc.png" alt="GWC logo">
+        <div class="accomp">
+
+          <p>Sophie Wu has also worked for Girls Who Code<img src="images/gwc.png" alt="GWC logo"> as a Teaching Assistant for a Summer Immersion Program. 
             Girls Who Code is a nonprofit organization which aims to support and increase the number of women in computer science. 
             The organization runs summer programs which teach computing and programming skills to high school girls.
           </p>
+        </div>
 
        </div><!-- .container -->
 

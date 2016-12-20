@@ -65,6 +65,7 @@ body {
 }
 
 #second {  
+  text-align: left;
   display: flex;
   background: 
     linear-gradient(
@@ -76,15 +77,16 @@ body {
 
 #second p {
   float: left;
-  text-align: left;
-  overflow:hidden;
-  clear: both;
   display: inline-block;
+
 }
 
 #second img {
   float: right;
-  overflow:hidden;
-  clear: both;
   display: inline-block;
+  margin: 10px;
+}
+
+.accomp {
+  display: block;
 }
