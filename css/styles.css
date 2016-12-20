@@ -1,20 +1,5 @@
 /*	****************************************
-	Demo styles (for demo purposes only)
-	**************************************** */
-p { margin-top: 0; }
-
-.right {
-	float: right;
-	margin-left: 15px;
-}
-
-.frame {
-	border: 1px solid #666;
-	padding: 5px;
-}
-
-/*	****************************************
-	Modules (reusable classes)
+	Modules 
 	**************************************** */
 .container {
 	margin: 0 auto;
@@ -47,7 +32,7 @@ body {
 #first h1 {
 	text-align: left;
 	font-size: 100px;
-	font-family: 'Great Vibes', cursive;
+	font-family: 'Space Mono', cursive;
 	letter-spacing: 5px;
 	font-weight: lighter;
 }
@@ -61,7 +46,7 @@ body {
 	overflow: hidden;
 }
 
-#first .text {
+#first p {
 	float: left; 
 	width: 80%; 
 }
@@ -80,10 +65,26 @@ body {
 }
 
 #second {  
+  display: flex;
   background: 
     linear-gradient(
       rgba(255, 255, 255, 0.45), 
       rgba(255, 255, 255, 0.45)
     ),
     url(../images/old_moon.png);
+}
+
+#second p {
+  float: left;
+  text-align: left;
+  overflow:hidden;
+  clear: both;
+  display: inline-block;
+}
+
+#second img {
+  float: right;
+  overflow:hidden;
+  clear: both;
+  display: inline-block;
 }
