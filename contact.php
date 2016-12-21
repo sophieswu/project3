@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <?php include "inc/head.inc"; ?>
+  <?php include "inc/head.inc"; ?></head>
 
 <body>
 
@@ -26,7 +26,7 @@
 			<div>
 				<label for="phone">Phone number:</label>
 				<input type="tel" name="phone" id="phone"> <br>
-			</div>
+			</div> <br>
 
 			<label for="message">Message</label><br>
 			<textarea name="message" id="message"></textarea>
@@ -34,6 +34,8 @@
 			<input type="submit" value="Send">
 
 		</form>
+
+		<p>You will be automatically redirected to the home page after your information is saved.</p>
     </div>
 </section>
 

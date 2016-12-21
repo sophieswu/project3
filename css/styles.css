@@ -29,12 +29,15 @@ body {
     url(../images/seigaiha.png);
 }
 
-#first h1 {
+h1 {
 	text-align: left;
-	font-size: 100px;
-	font-family: 'Space Mono', cursive;
-	letter-spacing: 5px;
+	font-size: 70px;
+	font-family: 'Space Mono', sans-serif;
 	font-weight: lighter;
+}
+
+#first h1 {
+  font-size: 100px;
 }
 
 #first .content {

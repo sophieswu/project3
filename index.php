@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <?php include "inc/head.inc"; ?>
+  <?php include "inc/head.inc"; ?> </head>
 
 <body>
 
@@ -35,6 +35,7 @@
       <h1>Accomplishments</h1>
 
         <div class="accomp">
+          <h2>Vestavia Hills High School</h2>
 
           <p>Sophie Wu graduated from Vestavia Hills High School in 2014 as an honors student. <img src="images/vhhs.png" alt="VHHS logo">
             Vestavia Hills High School (VHHS), founded in 1970, is a public high school in Vestavia Hills, Alabama, a suburb of Birmingham, Alabama, USA. It is part of the Vestavia Hills City Schools.
@@ -46,6 +47,7 @@
         </div>
           
         <div class="accomp">
+          <h2>University of Rochester</h2>
 
           <p>Sophie Wu currently attends the University of Rochester,<img src="images/uofr.svg" alt="U of R logo"> and is pursuing a statistics major and a computer science and Chinese minor. 
             The University of Rochester (commonly referred to as U of R or UR) is a private, nonsectarian, research university in Rochester, New York.
@@ -57,6 +59,7 @@
         </div>
 
         <div class="accomp">
+          <h2>Girls Who Code</h2>
 
           <p>Sophie Wu has also worked for Girls Who Code<img src="images/gwc.png" alt="GWC logo"> as a Teaching Assistant for a Summer Immersion Program. 
             Girls Who Code is a nonprofit organization which aims to support and increase the number of women in computer science. 

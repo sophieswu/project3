@@ -1,127 +1,116 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>JQuery Portfolio - jQuery plugin for a slick and modern portfolio</title>
+        <meta name="description" content="">
+        <link rel="stylesheet" href="portfolio.jquery.css">
 
-  <?php include "inc/head.inc"; ?>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <link rel="stylesheet" href="portfolio.jquery.css">
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <script src="portfolio.jquery.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="portfolio.jquery.js"></script>
 
-  <script>
-    $(document).ready(function() {
-      $('.thumbs').portfolio({
-        cols: 4,
-        transition: 'slideDown'
-      });
-     });
-  </script>
-        
-  <style>
-    body {
-      font-family: arial;
-    }
-    
-    hr {
-        margin-bottom: 40px;
-    }
-    
-    h1 {
-         margin-bottom: 0px;
-        margin-top: 30px;
-    }
-    
-    h3 {
-      margin-top: 10px;
-      font-weight: normal;
-      color: #a6a6a6;
-    }
-            
-    p {
-      line-height: 25px;
-    }
-    
-    a.button {
-      text-decoration: none;
-    }
-    
-    .button {
-      padding: 14px 22px;
-      background-color: #cecece;
-      color: #333333;
-      border-radius: 3px;
-      margin-bottom: 20px;
-      display: inline-block;
-    }
-    
-    .button:hover {
-      background-color: #e1e1e1;
-    }
-    
-    .thumbs {
-      display: block;
-    }
-    
-    .footer {
-      display: block;
-      width: 100%;
-      margin-top: 50px;
-      margin-bottom: 30px;
-    }        }
-    </style>
-  </head>
-
-<body>
-
-  <?php include "inc/nav.inc"; ?>
-  <section>
-  <div class="container content">
-
+        <script>
+            $(document).ready(function() {
+                $('.thumbs').portfolio({
+                    cols: 4,
+                    transition: 'slideDown'
+                });
+            });
+        </script>
+        <style>
+            body {
+                font-family: arial;
+            }
+            hr {
+                margin-bottom: 40px;
+            }
+            h1 {
+                margin-bottom: 0px;
+                margin-top: 30px;
+            }
+            h3 {
+                margin-top: 10px;
+                font-weight: normal;
+                color: #a6a6a6;
+            }
+            p {
+                line-height: 25px;
+            }
+            a.button {
+                text-decoration: none;
+            }
+            .button {
+                padding: 14px 22px;
+                background-color: #cecece;
+                color: #333333;
+                border-radius: 3px;
+                margin-bottom: 20px;
+                display: inline-block;
+            }
+            .button:hover {
+                background-color: #e1e1e1;
+            }
+            .thumbs {
+                display: block;
+            }
+            .footer {
+                display: block;
+                width: 100%;
+                margin-top: 50px;
+                margin-bottom: 30px;
+            }
+        </style>
+    </head>
     <body>
         <center>
-            <h1>Portfolio</h1>
+            <h1>jQuery Portfolio Demo</h1>
+            <h3>Display and organize your portfolio pieces in a slick & responsive fashion. Easy to set up and get going.</h3>
+            <a href="https://github.com/arsenetoumani/jquery-portfolio" class="button">Get the plugin here</a>
+            <hr/>
         </center>
         <ul class="thumbs">
             <li><a href="#thumb1" class="thumbnail" style="background-image: url('images/thumb1.jpg')">
-                <h4>Web development</h4></a>
+                <h4>Web development</h4><span class="description">Get the latest technologies</span></a>
             </li>
             <li>
-                <a href="#thumb2" class="thumbnail" style="background-image: url('images/thumb2.jpg')"><h4>SEO</h4></a>
+                <a href="#thumb2" class="thumbnail" style="background-image: url('images/thumb2.jpg')"><h4>SEO</h4><span class="description">Fast and reliable performance</span></a>
             </li>
             <li>
-                <a href="#thumb3" class="thumbnail" style="background-image: url('images/thumb3.jpg')"><h4>Web design</h4></a>
+                <a href="#thumb3" class="thumbnail" style="background-image: url('images/thumb3.jpg')"><h4>Web design</h4><span class="description">Slick and responsive website</span></a>
             </li>
             <li>
-                <a href="#thumb4" class="thumbnail" style="background-image: url('images/thumb4.jpg')"><h4>Project management</h4></a>
+                <a href="#thumb4" class="thumbnail" style="background-image: url('images/thumb4.jpg')"><h4>Project management</h4><span class="description">Reduce costs and increase productivity</span></a>
             </li>
             <li>
-                <a href="#thumb5" class="thumbnail" style="background-image: url('images/thumb5.jpg')"><h4>Graphic design</h4></a>
+                <a href="#thumb5" class="thumbnail" style="background-image: url('images/thumb5.jpg')"><h4>Graphic design</h4><span class="description">Brochures, logos, banners</span></a>
             </li>
             <li>
-                <a href="#thumb6" class="thumbnail" style="background-image: url('images/thumb6.jpg')"><h4>SEO</h4></a>
+                <a href="#thumb6" class="thumbnail" style="background-image: url('images/thumb6.jpg')"><h4>SEO</h4><span class="description">Nunc condimentum magna</span></a>
             </li>
             <li>
-                <a href="#thumb7" class="thumbnail" style="background-image: url('images/thumb7.jpg')"><h4>Graphic design</h4></a>
+                <a href="#thumb7" class="thumbnail" style="background-image: url('images/thumb7.jpg')"><h4>Graphic design</h4><span class="description">Nunc condimentum magna</span></a>
             </li>
             <li>
-                <a href="#thumb8" class="thumbnail" style="background-image: url('images/thumb8.jpg')"><h4>Graphic design</h4></a>
+                <a href="#thumb8" class="thumbnail" style="background-image: url('images/thumb8.jpg')"><h4>Graphic design</h4><span class="description">Morbi pellentesque quam vitae</span></a>
             </li>
             <li>
-                <a href="#thumb9" class="thumbnail" style="background-image: url('images/thumb9.jpg')"><h4>Web development</h4></a>
+                <a href="#thumb9" class="thumbnail" style="background-image: url('images/thumb9.jpg')"><h4>Web development</h4><span class="description">Phasellus ultrices, dolor sit amet dapibus</span></a>
             </li>
             <li>
-                <a href="#thumb10" class="thumbnail" style="background-image: url('images/thumb10.jpg')"><h4>Web design</h4></a>
+                <a href="#thumb10" class="thumbnail" style="background-image: url('images/thumb10.jpg')"><h4>Web design</h4><span class="description">Vivamus massa dolor, commodo</span></a>
             </li>
             <li>
-                <a href="#thumb11" class="thumbnail" style="background-image: url('images/thumb11.jpg')"><h4>Graphic design</h4></a>
+                <a href="#thumb11" class="thumbnail" style="background-image: url('images/thumb11.jpg')"><h4>Graphic design</h4><span class="description">Sed lobortis at nisl non pellentesque</span></a>
             </li>
             <li>
-                <a href="#thumb12" class="thumbnail" style="background-image: url('images/thumb12.jpg')"><h4>Fron-end development</h4></a>
+                <a href="#thumb12" class="thumbnail" style="background-image: url('images/thumb12.jpg')"><h4>Fron-end development</h4><span class="description">Proin lorem est, rhoncus ullamcorper </span></a>
             </li>
             <li>
-                <a href="#thumb13" class="thumbnail" style="background-image: url('images/thumb13.jpg')"><h4>Web design</h4></a>
+                <a href="#thumb13" class="thumbnail" style="background-image: url('images/thumb13.jpg')"><h4>Web design</h4><span class="description">Quisque suscipit, est a condimentum</span></a>
             </li>
             <li>
-                <a href="#thumb13" class="thumbnail" style="background-image: url('images/thumb14.jpg')"><h4>Web design</h4></a>
+                <a href="#thumb13" class="thumbnail" style="background-image: url('images/thumb14.jpg')"><h4>Web design</h4><span class="description">Aenean condimentum diam nibh</span></a>
             </li>
         </ul>
 
@@ -246,13 +235,7 @@
             </div>
         </div>
         <center class="footer">
-            <a href="https://github.com/arsenetoumani/jquery-portfolio">Find the JQuery plugin here.</a>
+            by <a href="http://www.arsenetoumani.com">Arsene Toumani</a> | Pictures from Themeforest
         </center>
     </body>
-
-  </div>
-  </section>
-
-</body>
-
 </html>
