@@ -18,13 +18,19 @@
 
 body {
   font-family: 'Raleway', sans-serif;
+  background: 
+    linear-gradient(
+      rgba(255, 255, 255, 0.45), 
+      rgba(255, 255, 255, 0.45)
+    ),
+    url(../images/old_moon.png);
 }
 
 #first {	
 	background: 
     linear-gradient(
-      rgba(255, 255, 255, 0.45), 
-      rgba(255, 255, 255, 0.45)
+      rgba(255, 255, 255, 0.25), 
+      rgba(255, 255, 255, 0.25)
     ),
     url(../images/seigaiha.png);
 }
@@ -54,7 +60,7 @@ h1 {
 	width: 80%; 
 }
 
-#first .content .button {
+.button {
   background-color: #CCC;
   border: none;
   padding: 15px 32px;
@@ -63,19 +69,17 @@ h1 {
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
-  float: right;
   width:8%;
+}
+
+#first .button {
+  float: right;
 }
 
 #second {  
   text-align: left;
   display: flex;
-  background: 
-    linear-gradient(
-      rgba(255, 255, 255, 0.45), 
-      rgba(255, 255, 255, 0.45)
-    ),
-    url(../images/old_moon.png);
+  
 }
 
 #second p {

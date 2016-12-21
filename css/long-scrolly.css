@@ -44,6 +44,3 @@ section {
     padding-bottom: 25px; /* typical - keep content away from the next section */
     text-align: center; /* typical for long scrolly pages */
 }
-
- /* typical - alter the bg for every other section */
-section:nth-child(even) {background-color: #eee; }

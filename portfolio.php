@@ -17,45 +17,6 @@
   </script>
         
   <style>
-    body {
-      font-family: arial;
-    }
-    
-    hr {
-        margin-bottom: 40px;
-    }
-    
-    h1 {
-         margin-bottom: 0px;
-        margin-top: 30px;
-    }
-    
-    h3 {
-      margin-top: 10px;
-      font-weight: normal;
-      color: #a6a6a6;
-    }
-            
-    p {
-      line-height: 25px;
-    }
-    
-    a.button {
-      text-decoration: none;
-    }
-    
-    .button {
-      padding: 14px 22px;
-      background-color: #cecece;
-      color: #333333;
-      border-radius: 3px;
-      margin-bottom: 20px;
-      display: inline-block;
-    }
-    
-    .button:hover {
-      background-color: #e1e1e1;
-    }
     
     .thumbs {
       display: block;
@@ -66,7 +27,11 @@
       width: 100%;
       margin-top: 50px;
       margin-bottom: 30px;
-    }        }
+    }        
+
+    .portfolio-content div {
+      background-color: white;
+    }
     </style>
   </head>
 
@@ -81,169 +46,73 @@
             <h1>Portfolio</h1>
         </center>
         <ul class="thumbs">
-            <li><a href="#thumb1" class="thumbnail" style="background-image: url('images/thumb1.jpg')">
-                <h4>Web development</h4></a>
+            <li><a href="#thumb1" class="thumbnail" style="background-image: url('images/thumb1.jpg')"><h4>GitHub</h4></a>
             </li>
             <li>
-                <a href="#thumb2" class="thumbnail" style="background-image: url('images/thumb2.jpg')"><h4>SEO</h4></a>
+                <a href="#thumb2" class="thumbnail" style="background-image: url('images/thumb2.png')"><h4>LinkedIn</h4></a>
             </li>
             <li>
-                <a href="#thumb3" class="thumbnail" style="background-image: url('images/thumb3.jpg')"><h4>Web design</h4></a>
+                <a href="#thumb3" class="thumbnail" style="background-image: url('images/thumb3.PNG')"><h4>Project 1</h4></a>
             </li>
             <li>
-                <a href="#thumb4" class="thumbnail" style="background-image: url('images/thumb4.jpg')"><h4>Project management</h4></a>
+                <a href="#thumb4" class="thumbnail" style="background-image: url('images/thumb4.PNG')"><h4>Project 2</h4></a>
             </li>
             <li>
-                <a href="#thumb5" class="thumbnail" style="background-image: url('images/thumb5.jpg')"><h4>Graphic design</h4></a>
+                <a href="#thumb5" class="thumbnail" style="background-image: url('images/thumb5.PNG')"><h4>JS Form</h4></a>
             </li>
             <li>
-                <a href="#thumb6" class="thumbnail" style="background-image: url('images/thumb6.jpg')"><h4>SEO</h4></a>
+                <a href="#thumb6" class="thumbnail" style="background-image: url('images/thumb6.PNG')"><h4>Wordpress</h4></a>
             </li>
             <li>
-                <a href="#thumb7" class="thumbnail" style="background-image: url('images/thumb7.jpg')"><h4>Graphic design</h4></a>
+                <a href="#thumb7" class="thumbnail" style="background-image: url('images/thumb7.PNG')"><h4>Phonebook</h4></a>
             </li>
-            <li>
-                <a href="#thumb8" class="thumbnail" style="background-image: url('images/thumb8.jpg')"><h4>Graphic design</h4></a>
-            </li>
-            <li>
-                <a href="#thumb9" class="thumbnail" style="background-image: url('images/thumb9.jpg')"><h4>Web development</h4></a>
-            </li>
-            <li>
-                <a href="#thumb10" class="thumbnail" style="background-image: url('images/thumb10.jpg')"><h4>Web design</h4></a>
-            </li>
-            <li>
-                <a href="#thumb11" class="thumbnail" style="background-image: url('images/thumb11.jpg')"><h4>Graphic design</h4></a>
-            </li>
-            <li>
-                <a href="#thumb12" class="thumbnail" style="background-image: url('images/thumb12.jpg')"><h4>Fron-end development</h4></a>
-            </li>
-            <li>
-                <a href="#thumb13" class="thumbnail" style="background-image: url('images/thumb13.jpg')"><h4>Web design</h4></a>
-            </li>
-            <li>
-                <a href="#thumb13" class="thumbnail" style="background-image: url('images/thumb14.jpg')"><h4>Web design</h4></a>
-            </li>
+            
         </ul>
 
         <div class="portfolio-content">
             <div id="thumb1">
-                <div class="media"><iframe src="//player.vimeo.com/video/69666609?byline=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-                <h1>Web development</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mollis nisi sit amet metus venenatis, ut congue turpis aliquet. Pellentesque eget elit sollicitudin, feugiat felis in, ornare diam. Morbi blandit sapien nibh, eu pulvinar tortor luctus nec. Aenean lobortis lacus cursus gravida adipiscing. Praesent in odio porta, placerat felis id, viverra est. Nam magna quam, tincidunt eget augue in, aliquet tristique ipsum.</p>
-                <a href="#" class="btn btn-primary">Learn More</a>
+                <h2>GitHub</h2>
+                <p>Find Sophie Wu's finished projects on GitHub.</p>
+                <a href="https://github.com/sophieswu" class="button">Go To</a>
             </div>
 
             <div id="thumb2">
-                <div class="media"><img src="images/media.jpg"/></div>
-                <h1>SEO</h1>
-                <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse potenti. Integer a posuere tortor. Praesent malesuada mauris massa, non blandit neque tempus nec. Quisque fermentum nunc non hendrerit tempus.</p>
-                <a href="#" class="btn btn-primary">Learn More</a>
+                <h2>LinkedIn</h2>
+                <p>Connect with Sophie Wu professionally on LinkedIn</p>
+                <a href="https://www.linkedin.com/in/sophieswu" class="button">Go To</a>
             </div>
 
             <div id="thumb3">
-                <div class="media"><img src="images/media.jpg"/></div>
-                <h1>Web design</h1>
-                <p>Ut condimentum eros bibendum metus lacinia, ac condimentum justo faucibus. Nam nec dui convallis, sodales sapien in, gravida justo. Pellentesque pulvinar massa a nisl iaculis, quis iaculis elit tincidunt.</p>
-                <a href="#" class="btn btn-primary">Learn More</a>
+                <h2>Project 1</h2>
+                <p>A completed project done for CSC174, on the topic of important figures in computer science.</p>
+                <a href="http://urcsc170.org/ksitthisack/team6_project1/" class="button">Go To</a>
             </div>
 
             <div id="thumb4">
-                <div class="media"><img src="images/media.jpg"/></div>
-                <h1>Project management</h1>
-                <p>Suspendisse cursus commodo elit, at tempus felis hendrerit vel. Cras condimentum aliquam mauris at blandit. Pellentesque ac velit iaculis, lobortis nibh id, ultricies ante. Fusce vel urna justo. Maecenas rhoncus vel ligula eget feugiat. Maecenas blandit risus eros, vel imperdiet augue dapibus vitae.</p>
-                <a href="#" class="btn btn-primary">Learn More</a>
+                <h2>Project 2</h2>
+                <p>A complete project done for CSC174, upgrading another group's website.</p>
+                <a href="http://www.urcsc170.org/lli42/project02/" class="button">Go To</a>
             </div>
 
             <div id="thumb5">
-                <div class="media"><img src="images/media.jpg"/></div>
-                <h1>Graphic design</h1>
-                <p>Vestibulum gravida, ante ut consectetur dictum, dolor sapien pretium elit, sed tincidunt augue sem a lorem. Vivamus quis neque pharetra, consequat dolor vel, venenatis urna. Praesent diam quam, fermentum vel tortor eget, pulvinar tincidunt velit.</p>
-                <a href="#" class="btn btn-primary">Learn More</a>
-            </div>
-
-            <div id="thumb5">
-                <div class="media"><img src="images/media.jpg"/></div>
-                <h1>Graphic design</h1>
-                <p>Vestibulum gravida, ante ut consectetur dictum, dolor sapien pretium elit, sed tincidunt augue sem a lorem. Vivamus quis neque pharetra, consequat dolor vel, venenatis urna. Praesent diam quam, fermentum vel tortor eget, pulvinar tincidunt velit.</p>
-                <a href="#" class="btn btn-primary">Learn More</a>
-            </div>
-
-            <div id="thumb5">
-                <div class="media"><img src="images/media.jpg"/></div>
-                <h1>Graphic design</h1>
-                <p>Vestibulum gravida, ante ut consectetur dictum, dolor sapien pretium elit, sed tincidunt augue sem a lorem. Vivamus quis neque pharetra, consequat dolor vel, venenatis urna. Praesent diam quam, fermentum vel tortor eget, pulvinar tincidunt velit.</p>
-                <a href="#" class="btn btn-primary">Learn More</a>
-            </div>
-
-            <div id="thumb5">
-                <div class="media"><img src="images/media.jpg"/></div>
-                <h1>Graphic design</h1>
-                <p>Vestibulum gravida, ante ut consectetur dictum, dolor sapien pretium elit, sed tincidunt augue sem a lorem. Vivamus quis neque pharetra, consequat dolor vel, venenatis urna. Praesent diam quam, fermentum vel tortor eget, pulvinar tincidunt velit.</p>
-                <a href="#" class="btn btn-primary">Learn More</a>
+                <h2>JavaScript Form</h2>
+                <p>A functional JS form to collect information.</p>
+                <a href="http://urcsc174.org/swu38/lab10/" class="button">Go To</a>
             </div>
 
             <div id="thumb6">
-                <div class="media"><img src="images/media.jpg"/></div>
-                <h1>Graphic design</h1>
-                <p>Vestibulum gravida, ante ut consectetur dictum, dolor sapien pretium elit, sed tincidunt augue sem a lorem. Vivamus quis neque pharetra, consequat dolor vel, venenatis urna. Praesent diam quam, fermentum vel tortor eget, pulvinar tincidunt velit.</p>
-                <a href="#" class="btn btn-primary">Learn More</a>
+                <h2>Wordpress</h2>
+                <p>A functional Wordpress site, filled with sample text and a calender plug-in.</p>
+                <a href="http://www.urcsc174.org/swu38/lab11/" class="button">Go To</a>
             </div>
 
             <div id="thumb7">
-                <div class="media"><img src="images/media.jpg"/></div>
-                <h1>Graphic design</h1>
-                <p>Vestibulum gravida, ante ut consectetur dictum, dolor sapien pretium elit, sed tincidunt augue sem a lorem. Vivamus quis neque pharetra, consequat dolor vel, venenatis urna. Praesent diam quam, fermentum vel tortor eget, pulvinar tincidunt velit.</p>
-                <a href="#" class="btn btn-primary">Learn More</a>
+                <h2>Phonebook</h2>
+                <p>An online phonebook attached to a database to save information.</p>
+                <a href="http://urcsc174.org/swu38/lab12/html-form.html" class="button">Go To</a>
             </div>
 
-            <div id="thumb8">
-                <div class="media"><img src="images/media.jpg"/></div>
-                <h1>Graphic design</h1>
-                <p>Vestibulum gravida, ante ut consectetur dictum, dolor sapien pretium elit, sed tincidunt augue sem a lorem. Vivamus quis neque pharetra, consequat dolor vel, venenatis urna. Praesent diam quam, fermentum vel tortor eget, pulvinar tincidunt velit.</p>
-                <a href="#" class="btn btn-primary">Learn More</a>
-            </div>
-
-            <div id="thumb9">
-                <div class="media"><img src="images/media.jpg"/></div>
-                <h1>Graphic design</h1>
-                <p>Vestibulum gravida, ante ut consectetur dictum, dolor sapien pretium elit, sed tincidunt augue sem a lorem. Vivamus quis neque pharetra, consequat dolor vel, venenatis urna. Praesent diam quam, fermentum vel tortor eget, pulvinar tincidunt velit.</p>
-                <a href="#" class="btn btn-primary">Learn More</a>
-            </div>
-
-            <div id="thumb10">
-                <div class="media"><img src="images/media.jpg"/></div>
-                <h1>Graphic design</h1>
-                <p>Vestibulum gravida, ante ut consectetur dictum, dolor sapien pretium elit, sed tincidunt augue sem a lorem. Vivamus quis neque pharetra, consequat dolor vel, venenatis urna. Praesent diam quam, fermentum vel tortor eget, pulvinar tincidunt velit.</p>
-                <a href="#" class="btn btn-primary">Learn More</a>
-            </div>
-
-            <div id="thumb11">
-                <div class="media"><img src="images/media.jpg"/></div>
-                <h1>Graphic design</h1>
-                <p>Vestibulum gravida, ante ut consectetur dictum, dolor sapien pretium elit, sed tincidunt augue sem a lorem. Vivamus quis neque pharetra, consequat dolor vel, venenatis urna. Praesent diam quam, fermentum vel tortor eget, pulvinar tincidunt velit.</p>
-                <a href="#" class="btn btn-primary">Learn More</a>
-            </div>
-
-            <div id="thumb12">
-                <div class="media"><img src="images/media.jpg"/></div>
-                <h1>Graphic design</h1>
-                <p>Vestibulum gravida, ante ut consectetur dictum, dolor sapien pretium elit, sed tincidunt augue sem a lorem. Vivamus quis neque pharetra, consequat dolor vel, venenatis urna. Praesent diam quam, fermentum vel tortor eget, pulvinar tincidunt velit.</p>
-                <a href="#" class="btn btn-primary">Learn More</a>
-            </div>
-
-            <div id="thumb13">
-                <div class="media"><img src="images/media.jpg"/></div>
-                <h1>Graphic design</h1>
-                <p>Vestibulum gravida, ante ut consectetur dictum, dolor sapien pretium elit, sed tincidunt augue sem a lorem. Vivamus quis neque pharetra, consequat dolor vel, venenatis urna. Praesent diam quam, fermentum vel tortor eget, pulvinar tincidunt velit.</p>
-                <a href="#" class="btn btn-primary">Learn More</a>
-            </div>
-
-            <div id="thumb14">
-                <div class="media"><img src="images/media.jpg"/></div>
-                <h1>Graphic design</h1>
-                <p>Vestibulum gravida, ante ut consectetur dictum, dolor sapien pretium elit, sed tincidunt augue sem a lorem. Vivamus quis neque pharetra, consequat dolor vel, venenatis urna. Praesent diam quam, fermentum vel tortor eget, pulvinar tincidunt velit.</p>
-                <a href="#" class="btn btn-primary">Learn More</a>
-            </div>
+            
         </div>
         <center class="footer">
             <a href="https://github.com/arsenetoumani/jquery-portfolio">Find the JQuery plugin here.</a>
