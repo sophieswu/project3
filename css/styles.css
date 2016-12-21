@@ -12,6 +12,17 @@
 	overflow: auto;
 }
 
+.button {
+  background-color: #CCC;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  width:8%;
+}
 /* ******************************************
   Sections
 ****************************************** */
@@ -26,6 +37,13 @@ body {
     url(../images/old_moon.png);
 }
 
+h1 {
+  text-align: left;
+  font-size: 70px;
+  font-family: 'Space Mono', sans-serif;
+  font-weight: lighter;
+}
+
 #first {	
 	background: 
     linear-gradient(
@@ -33,13 +51,6 @@ body {
       rgba(255, 255, 255, 0.25)
     ),
     url(../images/seigaiha.png);
-}
-
-h1 {
-	text-align: left;
-	font-size: 70px;
-	font-family: 'Space Mono', sans-serif;
-	font-weight: lighter;
 }
 
 #first h1 {
@@ -60,17 +71,6 @@ h1 {
 	width: 80%; 
 }
 
-.button {
-  background-color: #CCC;
-  border: none;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  width:8%;
-}
 
 #first .button {
   float: right;
@@ -97,3 +97,14 @@ h1 {
 .accomp {
   display: block;
 }
+
+.thumbs {
+  display: block;
+}
+    
+.footer {
+  display: block;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}  

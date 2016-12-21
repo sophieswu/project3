@@ -16,23 +16,6 @@
      });
   </script>
         
-  <style>
-    
-    .thumbs {
-      display: block;
-    }
-    
-    .footer {
-      display: block;
-      width: 100%;
-      margin-top: 50px;
-      margin-bottom: 30px;
-    }        
-
-    .portfolio-content div {
-      background-color: white;
-    }
-    </style>
   </head>
 
 <body>
